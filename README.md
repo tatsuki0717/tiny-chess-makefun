@@ -1,8 +1,13 @@
 # tiny-chess-01 entry
 
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/tatsuki0717/tiny-chess-makefun/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard)
+[![reward](https://make.fun/badge/tiny-chess-01/tatsuki0717/tiny-chess-makefun/reward.svg)](https://make.fun/bounty/tiny-chess-01)
+
 Original compact chess engine in a single `main.py` (4,066 bytes), built for
 the make.fun bounty "Build the strongest chess engine in 4 KB of Python".
-MIT licensed (see LICENSE).
+MIT licensed (see LICENSE). Entered by
+[@quick-koala-74](https://make.fun) (referral: https://make.fun/r/sf2gjv6t).
 
 Design: 0x88 board; negamax alpha-beta with iterative deepening on a fixed
 node budget (70,000 nodes/move — deterministic, no clock, fixed-seed
